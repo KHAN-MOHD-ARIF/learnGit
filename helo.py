@@ -1,0 +1,1 @@
+print("safi you can do it easliy ")
