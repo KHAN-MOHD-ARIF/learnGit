@@ -1,0 +1,1 @@
+print("safi hamza is hero")
