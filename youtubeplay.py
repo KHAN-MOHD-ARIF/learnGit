@@ -9,5 +9,5 @@ for i in playlist:
     video=youtube.streams.get_highest_resolution()
     video.download()
     os.rename(youtube.streams.get_highest_resolution().default_filename, f"{t} {youtube.streams.get_highest_resolution().default_filename} ")
-    print(f"succefull download {t}")
+    print(f"successful download {t}")
     t+=1
